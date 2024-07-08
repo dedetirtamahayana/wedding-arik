@@ -21,7 +21,7 @@ const Banner = () => {
           <p>Kami Mengundang Anda</p>
           <p>
             untuk hadir pada acara{" "}
-            <span className='font-bolg text-birutext'>Pernikahan</span> Kami.
+            <span className='font-bold text-birutext'>Pernikahan</span> Kami.
           </p>
         </div>
       </div>

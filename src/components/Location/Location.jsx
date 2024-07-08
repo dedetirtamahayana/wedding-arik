@@ -43,7 +43,7 @@ const Location = () => {
               <p className='text-abu helvetica-rounded-text text-4xl lg:text-7xl ml-0 lg:ml-6 relative my-4'>
                 Kamis,
               </p>
-              <div className='ml-[4.5rem] lg:ml-32 text-medium lg:text-3xl'>
+              <div className='ml-[3.5rem] lg:ml-32 text-medium lg:text-3xl'>
                 <p className='text-abu helvetica-light-text relative'>
                   25 <span className='ml-3'>Juli 2024</span>
                 </p>
