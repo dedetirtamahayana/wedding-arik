@@ -11,10 +11,10 @@ const ThankU = () => {
             <p>kami sekeluarga mengucapkan</p>
           </div>
           <div className=' pt-12 pb-24 lg:pt-20 lg:pb-40 ml-7 lg:ml-44'>
-            <h2 className='helvetica-rounded-text text-abugelap tracking-widest text-6xl lg:text-9xl'>
+            <h2 className='helvetica-rounded-text text-abugelap tracking-widest text-5xl lg:text-9xl'>
               Terima
             </h2>
-            <h2 className='kunstler-text text-birutext text-[6.5rem] ml-[7.5rem] -mt-[3.5rem] lg:text-[12rem] absolute lg:ml-72 lg:-mt-28'>
+            <h2 className='kunstler-text text-birutext text-[6rem] ml-[5.5rem] -mt-[3.5rem] lg:text-[12rem] absolute lg:ml-72 lg:-mt-28'>
               Kasih
             </h2>
           </div>

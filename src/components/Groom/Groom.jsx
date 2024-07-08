@@ -48,7 +48,7 @@ const Groom = () => {
           <h2 className='kunstler-text text-birutext text-[8rem] -mt-[18rem] -ml-[1.5rem] lg:text-[15rem] lg:-mt-[33rem] lg:ml-96 absolute z-10'>
             Gung
           </h2>
-          <h2 className='kunstler-text text-birutext text-[8rem] -mt-[5rem] ml-[16rem] lg:text-[15rem] lg:-mt-[9.5rem] lg:ml-[57rem] absolute z-10'>
+          <h2 className='kunstler-text text-birutext text-[8rem] -mt-[5rem] ml-[14rem] lg:text-[15rem] lg:-mt-[9.5rem] lg:ml-[57rem] absolute z-10'>
             Sri
           </h2>
           <div className='lg:py-32 lg:px-0 tracking-wider text-right py-16 pr-8'>

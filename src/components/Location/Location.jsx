@@ -25,25 +25,25 @@ const Location = () => {
         <div className='container mx-auto '>
           <div className='grid grid-cols-12'>
             <div className=' col-span-5 lg:col-span-4 border-r border-gray-300 pt-16 pb-5'>
-              <p className='helvetica-rounded-text text-abu italic tracking-widest text-[0.6rem] lg:text-xl uppercase mb-4'>
+              <p className='helvetica-rounded-text text-abu italic tracking-widest text-[0.5rem] lg:text-xl uppercase mb-4'>
                 Jam
               </p>
               <p className='text-abu helvetica-rounded-text text-4xl lg:text-7xl ml-6 mb-4'>
                 09.00
               </p>
-              <p className='text-abu helvetica-light-text text-sm lg:text-xl ml-6 tracking-widest font-thin'>
+              <p className='text-abu helvetica-light-text text-[0.7rem] lg:text-xl ml-6 tracking-widest font-thin'>
                 - Sampai Selesai.
               </p>
             </div>
             <div className='col-span-7 lg:col-span-8 pt-16 pb-5 pl-7 lg:pl-24'>
-              <p className='helvetica-rounded-text text-abu italic tracking-widest text-[0.6rem] lg:text-xl uppercase ml-20 lg:ml-48'>
+              <p className='helvetica-rounded-text text-abu italic tracking-widest text-[0.5rem] lg:text-xl uppercase ml-20 lg:ml-48'>
                 Tanggal Acara
               </p>
 
               <p className='text-abu helvetica-rounded-text text-4xl lg:text-7xl ml-0 lg:ml-6 relative my-4'>
                 Kamis,
               </p>
-              <div className='ml-[4.5rem] lg:ml-32 text-xl lg:text-3xl'>
+              <div className='ml-[4.5rem] lg:ml-32 text-medium lg:text-3xl'>
                 <p className='text-abu helvetica-light-text relative'>
                   25 <span className='ml-3'>Juli 2024</span>
                 </p>
@@ -60,12 +60,12 @@ const Location = () => {
           <p className='helvetica-rounded-text text-abu italic tracking-widest text-[0.6rem] lg:text-xl uppercase mb-4'>
             Tempat Acara
           </p>
-          <p className='text-abu helvetica-rounded-text text-5xl lg:text-9xl ml-10 lg:ml-20 mb-4'>
+          <p className='text-abu helvetica-rounded-text text-4xl lg:text-9xl ml-10 lg:ml-20 mb-4'>
             Sanur,
           </p>
-          <p className='ml-28 lg:ml-56 text-abu text-xl lg:text-3xl font-thin'>
+          <p className='ml-28 lg:ml-56 text-abu text-medium lg:text-3xl font-thin'>
             Jln.
-            <span className='text-abu helvetica-rounded-text text-2xl lg:text-7xl ml-2 mb-4'>
+            <span className='text-abu helvetica-rounded-text text-xl lg:text-7xl ml-2 mb-4'>
               Muktisari
             </span>{" "}
             Gg .1 No. 10
