@@ -17,7 +17,7 @@ const Banner = () => {
             Halo
           </h2>
         </div>
-        <div className='pt-12 lg:pt-24 mt-9 ml-16 lg:ml-[6.25rem] halvetica-light-text tracking-widest text-sm lg:text-xl'>
+        <div className='pt-12 lg:pt-24 mt-9 ml-16 lg:ml-[6.25rem] halvetica-light-text tracking-widest text-sm lg:text-xl text-abugelap'>
           <p>Kami Mengundang Anda</p>
           <p>
             untuk hadir pada acara{" "}
