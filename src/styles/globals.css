@@ -2,32 +2,93 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.bg-backdrop{
+  background-image: url(../../public/bg-backdrop.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@font-face {
+  font-family: 'Kunstler';
+  src: url('../../public/KUNSTLER.TTF') format('truetype');
+  /* Tambahkan format font lain jika diperlukan */
+}
+@font-face {
+  font-family: 'Halvetica Light';
+  src: url('../../public/helvetica-light-587ebe5a59211.ttf') format('truetype');
+  /* Tambahkan format font lain jika diperlukan */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@font-face {
+  font-family: 'Halvetica Bold';
+  src: url('../../public/Helvetica-Bold.ttf') format('truetype');
+  /* Tambahkan format font lain jika diperlukan */
+}
+
+@font-face {
+  font-family: 'Ganigar';
+  src: url('../../public/ganigar.otf') format('opentype');
+  /* Tambahkan format font lain jika diperlukan */
+}
+
+@font-face {
+  font-family: 'Helvetica Rounded Bold';
+  src: url('../../public/helvetica-rounded-bold-5871d05ead8de.otf') format('opentype');
+  /* Tambahkan format font lain jika diperlukan */
+}
+.halvetica-light-text{
+  font-family: 'Halvetica Light', sans-serif;
+}
+.halvetica-bold-text{
+  font-family: 'Halvetica Bold', sans-serif;
+}
+.helvetica-rounded-text {
+  font-family: 'Helvetica Rounded Bold', sans-serif;
+}
+.ganigar-text {
+  font-family: 'Ganigar', sans-serif;
+}
+
+.kunstler-text {
+  font-family: 'Kunstler', sans-serif;
+}
+.custom-icon svg path {
+  stroke-width: 1 !important; /* Adjust the stroke width as needed */
+}
+.bg-maps{
+  background-image: url(../../public/Map.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Video.css */
+.section-video{
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  position: relative;
+  background-color: #f0f0f0; /* Sesuaikan warna latar belakang sesuai kebutuhan Anda */
+}
+
+.video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+  .bg-ends{
+    background-image: url('../../public/end.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
