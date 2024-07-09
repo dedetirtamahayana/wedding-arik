@@ -15,7 +15,8 @@ const Backdrop = ({ onClick }) => {
   return (
     <div className='fixed top-0 left-0 w-full h-full bg-backdrop flex items-center justify-center overflow-auto'>
       <div className='m-5'>
-        <Card className='py-4 bg-abu rounded-sm w-auto lg:max-h-[625px]'>
+        <img src='/backdrop.png' alt='' className='w-[400px]' />
+        {/* <Card className='py-4 bg-abu rounded-sm w-auto lg:max-h-[625px]'>
           <CardHeader className='pb-0 pt-2 px-4 flex items-center justify-between'>
             <div className='grid grid-cols-3 w-full gap'>
               <div>
@@ -68,7 +69,7 @@ const Backdrop = ({ onClick }) => {
               Kamis - 25 . 07 . 24
             </p>
           </CardFooter>
-        </Card>
+        </Card> */}
         <div className='my-3 text-center'>
           <Button
             color='white'
