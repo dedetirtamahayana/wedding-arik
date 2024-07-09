@@ -5,10 +5,11 @@ const Banner = () => {
   return (
     <div className='section-1 bg-abuterang'>
       <div className='container pt-5 pb-12 mx-auto py-10'>
-        <div className='flex items-end justify-end pb-20'>
+        <div className='flex items-end justify-end pb-20 pr-[18px]'>
           <img src='/bintang-item.png' alt='' className='w-5 lg:w-12' />
         </div>
-        <h1 className='helvetica-rounded-text text-abugelap text-7xl ml-8 lg:ml-0 lg:text-9xl tracking-wider'>
+        <img src='/halo.png' alt='' className='w-72 lg:w-[600px] pl-[42px]' />
+        {/* <h1 className='helvetica-rounded-text text-abugelap text-7xl ml-8 lg:ml-0 lg:text-9xl tracking-wider'>
           Hai!
         </h1>
         <div className='absolute'>
@@ -16,8 +17,8 @@ const Banner = () => {
             {" "}
             Halo
           </h2>
-        </div>
-        <div className='pt-12 lg:pt-24 mt-9 ml-16 lg:ml-[6.25rem] halvetica-light-text tracking-widest text-sm lg:text-xl text-abugelap'>
+        </div> */}
+        <div className='pt-12 lg:pt-24 mt-9 ml-16 lg:ml-[6.25rem] halvetica-light-text tracking-widest text-[0.8rem] lg:text-xl text-abugelap'>
           <p>Kami Mengundang Anda</p>
           <p>
             untuk hadir pada acara{" "}
@@ -26,13 +27,13 @@ const Banner = () => {
         </div>
       </div>
       <div className='section-2'>
-        <div className='pb-12'>
+        <div className='pb-[160px]'>
           <img src='/banner.png' alt='' className='w-full h-[90%]' />
         </div>
         <div className='relative'>
           <div className='flex justify-end'>
-            <div className='bg-abu px-4 pt-16 pb-4 absolute z-10 -mt-[4.5rem] lg:-mt-[4.5rem] mr-4 lg:mr-[7rem]'>
-              <HiOutlineArrowNarrowDown className='text-birutext w-12 h-14 align-bottom custom-icon' />
+            <div className='absolute z-10 -mt-[10.8rem] lg:-mt-[4.5rem] mr-[1.3rem] lg:mr-[7rem]'>
+              <img src='/panah.png' alt='' className='w-[50px]' />
             </div>
           </div>
         </div>

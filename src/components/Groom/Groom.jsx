@@ -17,20 +17,20 @@ const Groom = () => {
               Arik
             </h2>
           </div>
-          <div className='lg:py-32 lg:px-0 tracking-wider py-16 pl-8'>
-            <p className='helvetica-rounded-text text-birutext tracking-wider text-medium lg:text-xl pb-5'>
+          <div className='lg:py-32 lg:px-0 tracking-wider pb-[6rem] pt-[5rem] pl-8'>
+            <p className='helvetica-rounded-text text-birutext tracking-wider text-sm lg:text-xl pb-5'>
               I Wayan Arik Aristyawan, S.Kom.
             </p>
             <span className='text-sm helvetica-light-text text-abugelap'>
               Anak Pertama
             </span>
-            <p className='helvetica-rounded-text text-birutext text-medium lg:text-xl'>
+            <p className='helvetica-rounded-text text-birutext text-sm lg:text-xl'>
               I Wayan Joni
             </p>
-            <span className='halvetica-bold-text text-birutext text-medium lg:text-xl'>
+            <span className='halvetica-bold-text text-birutext text-sm lg:text-xl'>
               &
             </span>
-            <p className='helvetica-rounded-text text-birutext text-medium lg:text-xl'>
+            <p className='helvetica-rounded-text text-birutext text-sm lg:text-xl'>
               Ni Wayan Wiratni
             </p>
           </div>
@@ -48,23 +48,23 @@ const Groom = () => {
           <h2 className='kunstler-text text-birutext text-[8rem] -mt-[18rem] -ml-[1.5rem] lg:text-[15rem] lg:-mt-[33rem] lg:ml-96 absolute z-10'>
             Gung
           </h2>
-          <h2 className='kunstler-text text-birutext text-[8rem] -mt-[5rem] ml-[14rem] lg:text-[15rem] lg:-mt-[9.5rem] lg:ml-[57rem] absolute z-10'>
+          <h2 className='kunstler-text text-birutext text-[8rem] -mt-[5rem] ml-[16rem] lg:text-[15rem] lg:-mt-[9.5rem] lg:ml-[57rem] absolute z-10'>
             Sri
           </h2>
-          <div className='lg:py-32 lg:px-0 tracking-wider text-right py-16 pr-8'>
-            <p className='helvetica-rounded-text text-birutext tracking-wider text-medium lg:text-xl pb-5'>
+          <div className='lg:py-32 lg:px-0 tracking-wider text-right pb-[6rem] pt-[5rem] pr-8'>
+            <p className='helvetica-rounded-text text-birutext tracking-wider text-sm lg:text-xl pb-5'>
               I Gusti Ayu Agung Sri Sasmita Dewi, S. Pd.
             </p>
             <span className='text-sm helvetica-light-text text-abugelap'>
               Anak Pertama
             </span>
-            <p className='helvetica-rounded-text text-birutext text-medium lg:text-xl'>
+            <p className='helvetica-rounded-text text-birutext text-sm lg:text-xl'>
               I Gusti Ngurah Anom Widanta
             </p>
-            <span className='halvetica-bold-text text-birutext text-medium lg:text-xl'>
+            <span className='halvetica-bold-text text-birutext text-sm lg:text-xl'>
               &
             </span>
-            <p className='helvetica-rounded-text text-birutext text-medium lg:text-xl'>
+            <p className='helvetica-rounded-text text-birutext text-sm lg:text-xl'>
               I Gusti Ayu Putu Parwati
             </p>
           </div>

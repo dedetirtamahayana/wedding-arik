@@ -12,7 +12,7 @@ const Location = () => {
             <img src='/bintang-putih.png' alt='' className='w-5 lg:w-12' />
           </div>
 
-          <h2 className='kunstler-text text-abu text-[10rem] -mt-[1.6rem] -ml-4 lg:text-[20rem] lg:-mt-16 lg:-ml-8 absolute'>
+          <h2 className='kunstler-text text-abu pl-[32px] text-[8rem] mt-[1.6rem] -ml-4 lg:text-[20rem] lg:-mt-16 lg:-ml-8 absolute'>
             Acara:
           </h2>
         </div>
@@ -25,10 +25,10 @@ const Location = () => {
         <div className='container mx-auto '>
           <div className='grid grid-cols-12'>
             <div className=' col-span-5 lg:col-span-4 border-r border-gray-300 pt-16 pb-5'>
-              <p className='helvetica-rounded-text text-abu italic tracking-widest text-[0.5rem] lg:text-xl uppercase mb-4'>
+              <p className='helvetica-rounded-text text-abu italic tracking-widest text-[0.5rem] lg:text-xl uppercase'>
                 Jam
               </p>
-              <p className='text-abu helvetica-rounded-text text-4xl lg:text-7xl ml-6 mb-4'>
+              <p className='text-abu helvetica-rounded-text text-4xl lg:text-7xl ml-6'>
                 09.00
               </p>
               <p className='text-abu helvetica-light-text text-[0.7rem] lg:text-xl ml-6 tracking-widest font-thin'>
@@ -40,7 +40,7 @@ const Location = () => {
                 Tanggal Acara
               </p>
 
-              <p className='text-abu helvetica-rounded-text text-4xl lg:text-7xl ml-0 lg:ml-6 relative my-4'>
+              <p className='text-abu helvetica-rounded-text text-4xl lg:text-7xl ml-0 lg:ml-6 relative'>
                 Kamis,
               </p>
               <div className='ml-[3.5rem] lg:ml-32 text-medium lg:text-3xl'>
@@ -57,15 +57,15 @@ const Location = () => {
       </div>
       <div className='section-4 bg-birutext pt-16 pb-10'>
         <div className='container mx-auto lg:p-0'>
-          <p className='helvetica-rounded-text text-abu italic tracking-widest text-[0.6rem] lg:text-xl uppercase mb-4'>
+          <p className='helvetica-rounded-text text-abu italic tracking-widest text-[0.6rem] lg:text-xl uppercase '>
             Tempat Acara
           </p>
-          <p className='text-abu helvetica-rounded-text text-4xl lg:text-9xl ml-10 lg:ml-20 mb-4'>
+          <p className='text-abu helvetica-rounded-text text-4xl lg:text-9xl ml-10 lg:ml-20 '>
             Sanur,
           </p>
           <p className='ml-28 lg:ml-56 text-abu text-medium lg:text-3xl font-thin'>
             Jln.
-            <span className='text-abu helvetica-rounded-text text-xl lg:text-7xl ml-2 mb-4'>
+            <span className='text-abu helvetica-rounded-text text-xl lg:text-7xl ml-2 '>
               Muktisari
             </span>{" "}
             Gg .1 No. 10

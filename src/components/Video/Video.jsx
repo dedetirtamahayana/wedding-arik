@@ -20,15 +20,6 @@ const Video = () => {
           />
         </div>
       </div>
-      <div className='section-text bg-abuterang'>
-        <div className='container mx-auto grid text-center lg:px-0 pt-8 pb-20 lg:pt-16 lg:pb-96 text-[0.7rem] lg:text-medium  text-abugelap helvetica-thick-text tracking-wider '>
-          <p>
-            The human mind works in mysterious ways. You just need to see the
-            sun shining in the moring to feel energized.
-          </p>
-          <p>A blue sky makes you feel happy you're alive.</p>
-        </div>
-      </div>
     </>
   );
 };

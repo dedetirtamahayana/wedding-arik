@@ -73,7 +73,7 @@ const Backdrop = ({ onClick }) => {
         <div className='my-3 text-center'>
           <Button
             color='white'
-            className='text-white w-44'
+            className='text-white w-44 uppercase border-1'
             variant='faded'
             radius='full'
             size='lg'
