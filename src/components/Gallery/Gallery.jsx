@@ -16,7 +16,7 @@ const Gallery = () => {
   return (
     <>
       <div className='section-1 bg-abuterang border-t-1 border-birutext relative z-10'>
-        <div className='container mx-auto p-0'>
+        <div className='container mx-auto p-0 '>
           <div className='grid grid-cols-12'>
             <div className='col-span-5 lg:col-span-4 border-r border-birutext pt-32'>
               <h2 className='text-4xl lg:text-7xl text-abugelap helvetica-rounded-text absolute ml-[2.5rem] -mt-[5.5rem] lg:-mt-[6.5rem] lg:ml-[11rem]'>

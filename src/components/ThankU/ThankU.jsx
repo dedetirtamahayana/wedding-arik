@@ -11,9 +11,13 @@ const ThankU = () => {
             <p>kami sekeluarga mengucapkan</p>
           </div>
           <div className=' pt-12 pb-24 lg:pt-20 lg:pb-40 ml-7 lg:ml-44'>
-            <img src='/Kasih.png' alt='' className='w-[250px] ml-[51px]' />
+            <img
+              src='/Kasih.png'
+              alt=''
+              className='w-[250px] lg:w-[30rem] ml-[51px]'
+            />
           </div>
-          <div className=' absolute z-10 mt-[1.2rem] ml-12 lg:ml-[6rem]'>
+          <div className=' absolute z-10 mt-[1.2rem] ml-12 lg:ml-[3rem]'>
             <img src='/panah-bg.png' alt='' className='w-[25px]' />
           </div>
         </div>

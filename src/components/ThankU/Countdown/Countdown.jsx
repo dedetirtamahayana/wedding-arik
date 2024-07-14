@@ -39,7 +39,7 @@ const Countdown = () => {
       return (
         <span
           key={interval}
-          className='text-[1.7rem] lg:text-9xl text-abugelap helvetica-rounded-text'
+          className='text-[1.7rem] lg:text-6xl text-abugelap helvetica-rounded-text'
         >
           {timeLeft[interval]} {interval} {index < array.length - 1 ? "" : ""}
         </span>

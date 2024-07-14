@@ -25,7 +25,7 @@ export const Maps = () => {
           ></iframe>
           <iframe
             src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3943.929878955336!2d115.25119727506208!3d-8.698209291350523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd241b9fdb572c7%3A0x9f11f892ad42a19f!2sGg.%20I%20No.199%2C%20Sanur%20Kauh%2C%20Denpasar%20Selatan%2C%20Kota%20Denpasar%2C%20Bali%2080228!5e0!3m2!1sid!2sid!4v1720533748913!5m2!1sid!2sid'
-            height='950'
+            height='550'
             style={{ border: 0 }}
             allowFullScreen=''
             loading='lazy'

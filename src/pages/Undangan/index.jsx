@@ -37,7 +37,7 @@ const Undangan = ({ setIsPlaying, isPlaying }) => {
 
   return (
     <div className='relative animate__animated animate__fadeIn animate__slower bg-undangan'>
-      <div className='fixed bottom-96 right-0 mt-4 mr-4 z-50'>
+      <div className='fixed bottom-24 right-0 mt-4 mr-4 z-50'>
         <button
           onClick={toggleAudio}
           className='w-12 h-12 bg-birubg text-white hover:animate-pulse rounded-full flex items-center justify-center'
