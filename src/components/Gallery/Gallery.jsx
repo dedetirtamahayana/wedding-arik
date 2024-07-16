@@ -63,7 +63,7 @@ const Gallery = () => {
                   transition={{ duration: 0.5 }}
                   src='/24.png'
                   alt=''
-                  className='text-end z-20 w-40 ml-20 mt-6 lg:w-72 absolute lg:ml-[41rem] lg:-mt-16'
+                  className='text-end z-20 w-40 ml-12 mt-6 lg:w-72 absolute lg:ml-[36rem] lg:-mt-16'
                 />
               </div>
             </div>
@@ -93,8 +93,8 @@ const Gallery = () => {
         <div className='container mx-auto'>
           <div className=' z-0 '>
             <motion.img
-              ref={ref1}
-              animate={controls1}
+              ref={ref2}
+              animate={controls2}
               initial='hidden'
               variants={{
                 hidden: { opacity: 0, scale: 0.8 },
