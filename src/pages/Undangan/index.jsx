@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaVolumeUp, FaVolumeMute } from "react-icons/fa";
+import { motion } from "framer-motion"; // Import motion from Framer Motion
 import Backdrop from "@/components/Backdrop/Backdrop";
 import Banner from "@/components/Banner/Banner";
 import Groom from "@/components/Groom/Groom";
@@ -11,13 +12,12 @@ import Gallery from "@/components/Gallery/Gallery";
 import Footer from "@/components/Footer/Footer";
 
 const Undangan = ({ setIsPlaying, isPlaying }) => {
-  // Terima prop setIsPlaying dan isPlaying
   const [showUndangan, setShowUndangan] = useState(false);
   const [audioPaused, setAudioPaused] = useState(false);
 
   const toggleAudio = () => {
     setAudioPaused(!audioPaused);
-    setIsPlaying(!audioPaused); // Panggil setIsPlaying dari prop
+    setIsPlaying(!audioPaused);
   };
 
   useEffect(() => {
@@ -36,7 +36,12 @@ const Undangan = ({ setIsPlaying, isPlaying }) => {
   };
 
   return (
-    <div className='relative animate__animated animate__fadeIn animate__slower bg-undangan'>
+    <motion.div
+      className='relative bg-undangan'
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    >
       <div className='fixed bottom-24 right-0 mt-4 mr-4 z-50'>
         <button
           onClick={toggleAudio}
@@ -63,7 +68,7 @@ const Undangan = ({ setIsPlaying, isPlaying }) => {
       </audio>
 
       {showUndangan && <Backdrop onClick={showUndanganPage} />}
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,5 +1,6 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import PhotoAlbum from "react-photo-album";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
@@ -12,6 +13,29 @@ import photos from "@/components/Gallery/Photo.jsx";
 
 const Gallery = () => {
   const [index, setIndex] = useState(-1);
+  const controls1 = useAnimation();
+  const controls2 = useAnimation();
+  const [ref1, inView1] = useInView({
+    threshold: 0.2,
+  });
+  const [ref2, inView2] = useInView({
+    threshold: 0.2,
+  });
+  useEffect(() => {
+    if (inView1) {
+      controls1.start("visible");
+    } else {
+      controls1.start("hidden");
+    }
+  }, [controls1, inView1]);
+
+  useEffect(() => {
+    if (inView2) {
+      controls2.start("visible");
+    } else {
+      controls2.start("hidden");
+    }
+  }, [controls2, inView2]);
 
   return (
     <>
@@ -28,10 +52,18 @@ const Gallery = () => {
             </div>
             <div className='col-span-7 lg:col-span-8 relative'>
               <div className='absolute z-0 inset-0'>
-                <img
+                <motion.img
+                  ref={ref1}
+                  animate={controls1}
+                  initial='hidden'
+                  variants={{
+                    hidden: { opacity: 0, scale: 0.8 },
+                    visible: { opacity: 1, scale: 1 },
+                  }}
+                  transition={{ duration: 0.5 }}
                   src='/24.png'
                   alt=''
-                  className='text-end z-20 w-40 ml-12 mt-6 lg:w-72 absolute lg:ml-[41rem] lg:-mt-16'
+                  className='text-end z-20 w-40 ml-12 mt-6 lg:w-72 absolute lg:ml-[36rem] lg:-mt-16'
                 />
               </div>
             </div>
@@ -48,7 +80,7 @@ const Gallery = () => {
           />
 
           <Lightbox
-            slides={photos}
+            photos={photos}
             open={index >= 0}
             index={index}
             close={() => setIndex(-1)}
@@ -60,7 +92,15 @@ const Gallery = () => {
       <div className='section-3 bg-abuterang pb-20'>
         <div className='container mx-auto'>
           <div className=' z-0 '>
-            <img
+            <motion.img
+              ref={ref2}
+              animate={controls2}
+              initial='hidden'
+              variants={{
+                hidden: { opacity: 0, scale: 0.8 },
+                visible: { opacity: 1, scale: 1 },
+              }}
+              transition={{ duration: 0.5 }}
               src='/24.png'
               alt=''
               className='text-end w-40 -mt-[4.5rem] ml-4 lg:w-72 lg:-mt-[6.5rem] lg:-ml-16'

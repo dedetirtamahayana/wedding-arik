@@ -92,3 +92,11 @@
     background-position: center;
     background-size: cover;
   }
+  @media screen and (min-width: 360px) and (max-width: 390px) {
+    .text-countdown {
+      font-size: 1.5rem !important;
+    }
+    .text-gung-sri{
+      margin-left:13rem !important;
+    }
+  }
