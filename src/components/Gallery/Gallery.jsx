@@ -40,13 +40,13 @@ const Gallery = () => {
   return (
     <>
       <div className='section-1 bg-abuterang border-t-1 border-birutext relative z-10'>
-        <div className='container mx-auto p-0 '>
+        <div className='container mx-auto p-0'>
           <div className='grid grid-cols-12'>
             <div className='col-span-5 lg:col-span-4 border-r border-birutext pt-32'>
-              <h2 className='text-4xl lg:text-7xl text-abugelap helvetica-rounded-text absolute ml-[2.5rem] -mt-[5.5rem] lg:-mt-[6.5rem] lg:ml-[11rem]'>
+              <h2 className='text-4xl lg:text-7xl text-abugelap helvetica-rounded-text absolute ml-[3.5rem] -mt-[5.5rem] lg:-mt-[6.5rem] lg:ml-[11rem]'>
                 Gall <span className='mr-[1.8rem]'></span>ry
               </h2>
-              <h2 className='text-[11rem] ml-28 -mt-[14.4rem] lg:text-[15rem] lg:-mt-[18rem] lg:ml-[20rem] absolute text-abugelap kunstler-text'>
+              <h2 className='text-[11rem] ml-32 -mt-[14.4rem] lg:text-[15rem] lg:-mt-[18rem] lg:ml-[20rem] absolute text-abugelap kunstler-text'>
                 e
               </h2>
             </div>
@@ -63,7 +63,7 @@ const Gallery = () => {
                   transition={{ duration: 0.5 }}
                   src='/24.png'
                   alt=''
-                  className='text-end z-20 w-40 ml-12 mt-6 lg:w-72 absolute lg:ml-[36rem] lg:-mt-16'
+                  className='text-end z-20 w-40 ml-20 mt-6 lg:w-72 absolute lg:ml-[41rem] lg:-mt-16'
                 />
               </div>
             </div>
@@ -80,7 +80,7 @@ const Gallery = () => {
           />
 
           <Lightbox
-            photos={photos}
+            slides={photos}
             open={index >= 0}
             index={index}
             close={() => setIndex(-1)}
@@ -93,8 +93,8 @@ const Gallery = () => {
         <div className='container mx-auto'>
           <div className=' z-0 '>
             <motion.img
-              ref={ref2}
-              animate={controls2}
+              ref={ref1}
+              animate={controls1}
               initial='hidden'
               variants={{
                 hidden: { opacity: 0, scale: 0.8 },
